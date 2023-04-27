@@ -33,6 +33,11 @@
 - 容器逃逸检测脚本:https://github.com/teamssix/container-escape-check
 
 ### Windows本地提权漏洞
+- CVE-2023-23410 Windows HTTP.sys 权限提升漏洞
+  - 漏洞影响版本:**Windows Server 2012 R2(Server Core installation) | Windows Server 2012 R2 | Windows Server 2012(Server Core installation) | Windows Server 2012 | Windows Server 2008 R2 for x64-based Systems Service Pack 1(Server Core installation) | Windows Server 2008 R2 for x64-based Systems Service Pack 1 | Windows Server 2008 for x64-based Systems Service Pack 2(Server Core installation) | Windows Server 2008 for x64-based Systems Service Pack 2 | Windows Server 2008 for 32-bit Systems Service Pack 2(Server Core installation) | Windows Server 2008 for 32-bit Systems Service Pack 2 | Windows Server 2016(Server Core installation) | Windows Server 2016 | Windows 10 Version 1607 for x64-based Systems | Windows 10 Version 1607 for 32-bit Systems | Windows 10 for x64-based Systems | Windows 10 for 32-bit Systems | Windows 10 Version 22H2 for 32-bit Systems | Windows 10 Version 22H2 for ARM64-based Systems | Windows 10 Version 22H2 for x64-based Systems | Windows 11 Version 22H2 for x64-based Systems | Windows 11 Version 22H2 for ARM64-based Systems | Windows 10 Version 21H2 for x64-based Systems | Windows 10 Version 21H2 for ARM64-based Systems | Windows 10 Version 21H2 for 32-bit Systems | Windows 11 version 21H2 for ARM64-based Systems | Windows 11 version 21H2 for x64-based Systems | Windows 10 Version 20H2 for ARM64-based Systems | Windows 10 Version 20H2 for 32-bit Systems ｜ Windows 10 Version 20H2 for x64-based Systems ｜ Windows Server 2022(Server Core installation) ｜ Windows Server 2022 ｜ Windows Server 2019(Server Core installation) ｜ Windows Server 2019 ｜ Windows 10 Version 1809 for ARM64-based Systems ｜ Windows 10 Version 1809 for x64-based Systems ｜ Windows 10 Version 1809 for 32-bit Systems**
+  - 漏洞介绍及修复建议:https://mp.weixin.qq.com/s/BsYM1moMr5zHxPji7-QPZg
+  - POC/EXP:暂无
+
 - CVE-2022-26923 Active Directory 域服务特权提升漏洞
   - 漏洞影响版本:**Windows 8.1 | Windows 10 Version 1607,1809,1909,2004,20H2,21H1,21H2 | Windows 11 | Windows Server 2012 | Windows Server 2016 | Windows Server 2019 | Windows Server 2022**
   - 漏洞介绍及修复建议:https://cn-sec.com/archives/999736.html
