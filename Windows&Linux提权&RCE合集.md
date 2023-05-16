@@ -204,7 +204,17 @@
   - POC/EXP:暂无
 
 ### Linux本地提权漏洞
-- CVE-2023-0179 Linux 本地内核提权漏洞
+- CVE-2023-32233 Linux NetFilter本地提权漏洞
+  - 漏洞影响版本:**漏洞影响多个Linux内核版本，包括Linux 6.3.1(当前稳定版)**
+  - 漏洞介绍及修复建议:https://cn-sec.com/archives/1737094.html
+  - POC/EXP:https://github.com/Liuk3r/CVE-2023-32233
+
+- CVE-2023-22809 Sudoedit本地权限提升漏洞
+  - 漏洞影响版本:**1.8.0 <= Sudo <= 1.9.12p1**
+  - 漏洞介绍及修复建议:https://cn-sec.com/archives/1676518.html
+  - POC/EXP:https://github.com/n3m1dotsys/CVE-2023-22809-sudoedit-privesc
+
+- CVE-2023-0179 Linux本地内核提权漏洞
   - 漏洞影响版本:**all Linux versions from 5.5 to 6.2-rc3**
   - 漏洞介绍及修复建议:https://www.ctfiot.com/100156.html
   - POC/EXP:https://github.com/H4K6/CVE-2023-0179-PoC
